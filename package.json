@@ -1,0 +1,17 @@
+{
+  "name": "angular-todo",
+  "version": "0.0.1",
+  "description": "Simple Angular TODO app based in MEAN stack",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.1",
+    "logger": "0.0.1",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7"
+  }
+}
