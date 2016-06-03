@@ -36,6 +36,15 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>    
+        var socket = io();
+        var saludo = "hola!";
+        socket.emit('mensage',{saludo:'jennier'});
+        socket.on('retorno',function(dev){
+            console.log(dev.devuelta);
+        });
+    </script>
     <script src="main.js"></script>
 </body>  
 </html>  
